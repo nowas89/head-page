@@ -1,0 +1,14 @@
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+}
+
+.full {
+background: url(2.jpeg) no-repeat center center fixed;
+object-fit: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: 100% 100%;
+}
