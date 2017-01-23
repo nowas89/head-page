@@ -17,31 +17,6 @@ background-size: 100% 100%;
 
 /* Custom Button Styles */
 
-.btn-dark {
-    border-radius: 0;
-    color: #fff;
-    background-color: rgba(0,0,0,0.4);
-}
-
-.btn-dark:hover,
-.btn-dark:focus,
-.btn-dark:active {
-    color: #fff;
-    background-color: rgba(0,0,0,0.7);
-}
-
-.btn-light {
-    border-radius: 0;
-    color: #333;
-    background-color: rgb(255,255,255);
-}
-
-.btn-light:hover,
-.btn-light:focus,
-.btn-light:active {
-    color: #333;
-    background-color: rgba(255,255,255,0.8);
-}
 .left{
 	float:left;
  margin-left:20%;
@@ -53,4 +28,41 @@ background-size: 100% 100%;
 	float:right;
  margin-right:20%;
  margin-top: 20%;
+}
+
+.btn-my{
+	border: #ffffff 1px solid;
+	color: #ffffff;
+	font-weight: lighter;
+	letter-spacing: 2px;
+}
+.btn-my:hover,
+.btn-my:focus,
+.btn-my:active{
+	color: #ffffff;
+	-webkit-box-shadow: 0px 0px 53px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 53px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 53px 0px rgba(0,0,0,0.75);
+-webkit-transition: all 1s linear;
+-o-transition: all 1s linear;
+-moz-transition: all 1s linear;
+-ms-transition: all 1s linear;
+-kthtml-transition: all 1s linear;
+transition: all 1s linear;
+}
+
+
+@media all and (max-width:500px) {
+
+
+
+		.right{
+			float: none;
+		margin: 0 auto;
+
+  }
+	 .left {
+		 float: none;
+		 margin: 0 auto;
+	 }
 }
