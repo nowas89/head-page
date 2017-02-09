@@ -35,20 +35,19 @@ background-size: 100% 100%;
 	color: #ffffff;
 	font-weight: lighter;
 	letter-spacing: 2px;
+	-webkit-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	-kthtml-transition: all 0.4s linear;
+	transition: all 0.4s linear;
 }
 .btn-my:hover,
 .btn-my:focus,
 .btn-my:active{
 	color: #ffffff;
-	-webkit-box-shadow: 0px 0px 53px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 53px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 53px 0px rgba(0,0,0,0.75);
--webkit-transition: all 0.4s linear;
--o-transition: all 0.4s linear;
--moz-transition: all 0.4s linear;
--ms-transition: all 0.4s linear;
--kthtml-transition: all 0.4s linear;
-transition: all 0.4s linear;
+
+transform: scale(1.3);
 }
 
 
